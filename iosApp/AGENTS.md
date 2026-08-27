@@ -260,8 +260,8 @@ the repository root; from `iosApp/`, invoke its checked-in wrapper as follows:
   conditionals.
 - Add focused tests for portable behavior before moving it into shared code.
 
-Use Xcode 16 or newer. Discover an installed simulator instead of assuming its
-name:
+Use Xcode 26.4 with the current Kotlin 2.4.10 toolchain. Discover an installed
+simulator instead of assuming its name:
 
 ```bash
 xcrun simctl list devices available

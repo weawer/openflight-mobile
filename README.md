@@ -14,7 +14,7 @@ the reusable Android library and iOS frameworks.
 - JDK 17 (`JAVA_HOME=/usr/lib/jvm/java-17-openjdk` on Arch/CachyOS)
 - Android SDK platform 37 and Build Tools 36.0.0
 - `ANDROID_HOME=$HOME/Android/Sdk`
-- macOS with Xcode 16+ only when building or integrating the iOS frameworks
+- macOS with Xcode 26.4 when building or integrating the iOS frameworks
 
 Open this repository root in Android Studio or VS Code.
 

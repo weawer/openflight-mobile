@@ -24,7 +24,7 @@ For protocol details and Pi-side diagnostics, see the
 
 ## Requirements
 
-- A Mac with Xcode 16 or newer
+- A Mac with Xcode 26.4 for the current Kotlin/Compose toolchain
 - An iPhone or iPad running iOS 17 or newer for real-device testing
 - An Apple ID added to Xcode; a free Personal Team is sufficient for local
   device development, while distribution requires the appropriate Apple

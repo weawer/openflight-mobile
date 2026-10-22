@@ -22,12 +22,12 @@ jobs:
   shared-framework:
     runs-on: macos-26
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Verify Apple toolchain
         run: |
           xcodebuild -version
           xcrun --sdk iphonesimulator --show-sdk-version
-      - uses: actions/setup-java@v5
+      - uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: "17"
@@ -38,7 +38,7 @@ jobs:
   native-app:
     runs-on: macos-26
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Verify Apple toolchain
         run: |
           xcodebuild -version
